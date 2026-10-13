@@ -36,7 +36,10 @@ demo = gr.Interface(
     ],
     title="Calculadora de IMC",
     description="Primer ejemplo con varios inputs y outputs",
-    flagging_mode="never"
+    flagging_mode="never",
+    examples=[
+        ["Ana", 55, 150, False]
+    ]
 )
 
 
